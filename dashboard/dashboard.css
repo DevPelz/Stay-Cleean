@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: aliceblue;
+}
+.box{
+    display: flex;
+}
+.box-left{
+    width: 60vw;
+    padding: 3rem;
+}
+.box-left-top {
+    display: flex;
+    /* padding: 3rem; */
+}
+.box-left-top div {
+    margin-right: 1rem;
+}
+.blue{
+    width: 18%;
+    height: 10rem;
+    background-color: blue ;
+    background-image: linear-gradient(to bottom right, rgb(106, 73, 180), rgba(89, 0, 255, 0.753));
+    border-radius: 1rem;
+}
+.purple{
+    width: 18%;
+    height: 10rem;
+    background-color: purple;
+    background-image: linear-gradient(to bottom right, rgb(242, 133, 204), rgba(179, 37, 139, 0.832));
+    border-radius: 1rem;
+}
+.light-blue{
+    width: 18%;
+    height: 10rem;
+    background-color: rgb(0, 183, 255);
+    background-image: linear-gradient(to bottom right, rgb(0, 229, 255), rgb(38, 138, 237));
+    border-radius: 1rem;
+}
+.orange{
+    width: 18%;
+    height: 10rem;
+    background-color: orange;
+    background-image: linear-gradient(to bottom right, rgb(250, 213, 66), rgb(219, 115, 4));
+    border-radius: 1rem;
+}
+.green{
+    width: 18%;
+    height: 10rem;
+    background-color: green;
+    background-image: linear-gradient(to bottom right, rgb(181, 238, 121), rgb(12, 118, 53));
+    border-radius: 1rem;
+}
+.list-header{
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.list{
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 90%;
+}
